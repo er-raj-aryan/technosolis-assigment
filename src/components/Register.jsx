@@ -23,18 +23,6 @@ function Register() {
     }).catch(error => {
       console.log("Error",error);
     })
-    // const response = fetch("http://localhost:8080/register", {
-    //   method: "POST",
-    //   mode: "cors", // no-cors, *cors, same-origin
-    //   cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
-    //   credentials: "same-origin", // include, *same-origin, omit
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   redirect: "follow", // manual, *follow, error
-    //   referrerPolicy: "no-referrer",
-    //   body: JSON.stringify(registerFormData),
-    // });
     setResponseData(registerFormData);
   };
 

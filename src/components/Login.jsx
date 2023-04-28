@@ -48,7 +48,6 @@ function Login() {
     setLoginPassword(tPassword);
   }
 
-  // console.log("raj",responseData)
 
   return (
     <div>
