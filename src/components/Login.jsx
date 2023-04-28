@@ -59,7 +59,7 @@ function Login() {
           <div style={{display:"flex",flexDirection:'column',gap:20}} >
             <div style={{display:"flex",gap:20}}>
               <label>Email</label>
-              <input  required  value={loginEmail} onChange={handleLoginEmail} />
+              <input  required type="email" value={loginEmail} onChange={handleLoginEmail} />
             </div>
             <div style={{display:"flex",gap:20}}>
               <label >Password</label>

@@ -58,6 +58,7 @@ function Register() {
             <div style={{display:"flex",gap:20}}>
               <label>Email</label>
               <input
+                type="email"
                 required
                 value={registerEmail}
                 onChange={handleRegisterEmail}
